@@ -162,6 +162,9 @@ return [
         /* zizaco*/
         Zizaco\Entrust\EntrustServiceProvider::class,
 
+        /* yajra */
+        Yajra\Datatables\DatatablesServiceProvider::class,
+
     ],
 
     /*
