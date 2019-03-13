@@ -13,10 +13,35 @@
       padding: 0;
       width: 100%;
       color: #BOBEC5;
+      display: table;
+      font-weight: 300;
+      font-family: 'Source Sans Pro';
+    }
+
+    .container {
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .content {
+      text-align: center;
+      display: inline-block;
+    }
+
+    .title {
+      font-size: 74px;
+      margin-bottom: 40px;
     }
   </style>
 </head>
 <body>
-
+  <div class="container">
+    <div class="content">
+      <div class="title">:(</div>
+      <p>Maaf, Anda tidak memiliki akses untuk fitur ini.</p>
+      <p><a href="{{ url('/') }}">Kembali ke halaman awal</a></p>
+    </div>
+  </div>
 </body>
 </html>
